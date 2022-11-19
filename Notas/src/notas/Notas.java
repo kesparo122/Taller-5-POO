@@ -15,7 +15,6 @@ public class Notas {
             suma = suma + listaNotas[i]; // Suma las notas del array
         }
         
-        System.out.println("Suma: "+ suma + " Cantidad: " + listaNotas.length);
         return (suma / listaNotas.length);
     }
     
